@@ -2,13 +2,19 @@ export default function Home() {
   return (
     <main className="container">
       <section className="hero">
-        <div className="hero-copy">
-          <p className="eyebrow">Web Development for Growing Brands</p>
-          <h1>High-Performance Web Development for Growing Businesses.</h1>
-          <p className="subtitle">
-            I help brands scale with fast, responsive, and pixel-perfect custom websites built with clean code.
-          </p>
-          <a className="button" href="#contact">Get a Free Consultation</a>
+        <div className="hero-brand">
+          <div className="brand-logo">
+            <div className="logo-ring">Super Businesses</div>
+            <div className="logo-mark">SB</div>
+          </div>
+          <div className="hero-copy">
+            <p className="eyebrow">Web Development for Growing Brands</p>
+            <h1>High-Performance Web Development for Growing Businesses</h1>
+            <p className="subtitle">
+              I build modern, responsive websites that help ambitious companies convert visitors into loyal customers.
+            </p>
+            <a className="button" href="#contact">Get a Free Consultation</a>
+          </div>
         </div>
       </section>
 
@@ -64,7 +70,7 @@ export default function Home() {
           <p>Ready to start your project? Let’s collaborate!</p>
         </div>
         <div className="footer-meta">
-          <a href="mailto:yourname@email.com">yourname@email.com</a>
+          <a href="mailto:jigneshvalmik52@gmail.com">jigneshvalmik52@gmail.com</a>
           <div className="footer-links">
             <a href="#">LinkedIn</a>
             <a href="#">GitHub</a>
