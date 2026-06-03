@@ -68,6 +68,87 @@ a {
     radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.14), transparent 18%);
 }
 
+.brand-line {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.logo-round {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 1px solid rgba(112, 224, 255, 0.18);
+  background: radial-gradient(circle at 35% 35%, rgba(112, 224, 255, 0.18), transparent 46%);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 28px rgba(112, 224, 255, 0.16), 0 0 12px rgba(139, 92, 246, 0.12);
+}
+
+.logo-round::before {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  border-radius: 50%;
+  border: 1px solid rgba(112, 224, 255, 0.12);
+}
+
+.logo-round-top,
+.logo-round-bottom {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #b5e5ff;
+}
+
+.logo-round-top {
+  top: 10px;
+}
+
+.logo-round-bottom {
+  bottom: 10px;
+}
+
+.logo-center {
+  position: relative;
+  z-index: 1;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.14);
+  color: #f8fafc;
+  display: grid;
+  place-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-shadow: 0 0 12px rgba(112, 224, 255, 0.9);
+}
+
+.logo-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-name {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.logo-tag {
+  margin: 4px 0 0;
+  font-size: 0.84rem;
+  color: #b6d9ff;
+}
+
 .hero-copy {
   position: relative;
   z-index: 1;

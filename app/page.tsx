@@ -2,6 +2,18 @@ export default function Home() {
   return (
     <main className="container">
       <section className="hero">
+        <div className="brand-line">
+          <div className="logo-round" aria-label="Super Businesses logo">
+            <span className="logo-round-top">Super</span>
+            <span className="logo-round-bottom">Businesses</span>
+            <div className="logo-center">SB</div>
+          </div>
+          <div className="logo-copy">
+            <p className="logo-name">Super Businesses</p>
+            <p className="logo-tag">Premium AI & web experiences</p>
+          </div>
+        </div>
+
         <div className="hero-copy">
           <p className="eyebrow">Web Development for Growing Brands</p>
           <h1>High-Performance Web Development for Growing Businesses.</h1>
