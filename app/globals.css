@@ -476,3 +476,223 @@ h1 {
     padding: 28px 20px;
   }
 }
+
+.portfolio-page {
+  min-height: 100vh;
+  background: #020617;
+  color: #f8fafc;
+}
+
+.portfolio-page .text-center {
+  text-align: center;
+}
+
+.portfolio-page .py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.portfolio-page .text-5xl {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.05;
+}
+
+.portfolio-page .font-extrabold {
+  font-weight: 800;
+}
+
+.portfolio-page .bg-clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.portfolio-page .text-transparent {
+  color: transparent;
+}
+
+.portfolio-page .bg-gradient-to-r {
+  background-image: linear-gradient(to right, #60a5fa, #7c3aed);
+}
+
+.portfolio-page .from-blue-400 {
+  --tw-from: #60a5fa;
+}
+
+.portfolio-page .to-purple-600 {
+  --tw-to: #7c3aed;
+}
+
+.portfolio-page .mt-4 {
+  margin-top: 1rem;
+}
+
+.portfolio-page .text-xl {
+  font-size: 1.125rem;
+}
+
+.portfolio-page .text-slate-400 {
+  color: #94a3b8;
+}
+
+.portfolio-page .max-w-4xl {
+  max-width: 56rem;
+}
+
+.portfolio-page .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-page .mb-16 {
+  margin-bottom: 4rem;
+}
+
+.portfolio-page .p-8 {
+  padding: 2rem;
+}
+
+.portfolio-page .border {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.portfolio-page .border-slate-800 {
+  border-color: rgba(15, 23, 42, 1);
+}
+
+.portfolio-page .rounded-2xl {
+  border-radius: 1.5rem;
+}
+
+.portfolio-page .bg-slate-900\/50 {
+  background: rgba(15, 23, 42, 0.5);
+  backdrop-filter: blur(18px);
+}
+
+.portfolio-page .text-3xl {
+  font-size: 1.875rem;
+}
+
+.portfolio-page .font-bold {
+  font-weight: 700;
+}
+
+.portfolio-page .mb-4 {
+  margin-bottom: 1rem;
+}
+
+.portfolio-page .text-lg {
+  font-size: 1.125rem;
+}
+
+.portfolio-page .leading-relaxed {
+  line-height: 1.85;
+}
+
+.portfolio-page .grid {
+  display: grid;
+}
+
+.portfolio-page .grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.portfolio-page .md\:grid-cols-3 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 768px) {
+  .portfolio-page .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.portfolio-page .gap-6 {
+  gap: 1.5rem;
+}
+
+.portfolio-page .max-w-6xl {
+  max-width: 72rem;
+}
+
+.portfolio-page .p-6 {
+  padding: 1.5rem;
+}
+
+.portfolio-page .border-purple-500\/30 {
+  border-color: rgba(168, 85, 247, 0.3);
+}
+
+.portfolio-page .rounded-xl {
+  border-radius: 1rem;
+}
+
+.portfolio-page .bg-purple-900\/10 {
+  background: rgba(76, 29, 149, 0.1);
+}
+
+.portfolio-page .hover\:shadow-\[0_0_20px_rgba\(168\,85\,247\,0\.3\)\] {
+  transition: box-shadow 0.2s ease;
+}
+
+.portfolio-page .transition {
+  transition: all 0.2s ease;
+}
+
+.portfolio-page .border-blue-500\/30 {
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.portfolio-page .bg-blue-900\/10 {
+  background: rgba(30, 58, 138, 0.1);
+}
+
+.portfolio-page .text-slate-400 {
+  color: #94a3b8;
+}
+
+.portfolio-page .text-center {
+  text-align: center;
+}
+
+.portfolio-page .mt-16 {
+  margin-top: 4rem;
+}
+
+.portfolio-page .px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.portfolio-page .py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.portfolio-page .bg-gradient-to-r {
+  background-image: linear-gradient(90deg, #2563eb, #7c3aed);
+}
+
+.portfolio-page .rounded-full {
+  border-radius: 9999px;
+}
+
+.portfolio-page .font-bold {
+  font-weight: 700;
+}
+
+.portfolio-page .text-lg {
+  font-size: 1.125rem;
+}
+
+.portfolio-page .hover\:scale-105:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-page .bg-slate-950 {
+  background-color: #020617;
+}
+
+.portfolio-page .text-white {
+  color: #ffffff;
+}
