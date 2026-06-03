@@ -10,6 +10,15 @@ export default function Home() {
           </p>
           <a className="button" href="#contact">Get a Free Consultation</a>
         </div>
+
+        <div className="hero-visual">
+          <div className="hero-orb">
+            <span className="hero-icon">i</span>
+            <div className="hero-orb-glow" />
+          </div>
+          <div className="hero-trace" />
+          <div className="hero-trace hero-trace--two" />
+        </div>
       </section>
 
       <section className="section" id="services">
