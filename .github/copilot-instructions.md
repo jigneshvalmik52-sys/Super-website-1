@@ -1,0 +1,4 @@
+- Scaffold the Next.js landing page project in the current directory.
+- Ensure the homepage includes sections for hero, services, why choose me, featured projects, testimonials, and contact.
+- Use placeholder email and links where needed.
+- Do not add third-party integrations beyond Next.js.
