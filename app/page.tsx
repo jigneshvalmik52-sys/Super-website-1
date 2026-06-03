@@ -2,18 +2,6 @@ export default function Home() {
   return (
     <main className="container">
       <section className="hero">
-        <div className="brand-line">
-          <div className="logo-round" aria-label="Super Businesses logo">
-            <span className="logo-round-top">Super</span>
-            <span className="logo-round-bottom">Businesses</span>
-            <div className="logo-center">SB</div>
-          </div>
-          <div className="logo-copy">
-            <p className="logo-name">Super Businesses</p>
-            <p className="logo-tag">Premium AI & web experiences</p>
-          </div>
-        </div>
-
         <div className="hero-copy">
           <p className="eyebrow">Web Development for Growing Brands</p>
           <h1>High-Performance Web Development for Growing Businesses.</h1>
@@ -21,15 +9,6 @@ export default function Home() {
             I help brands scale with fast, responsive, and pixel-perfect custom websites built with clean code.
           </p>
           <a className="button" href="#contact">Get a Free Consultation</a>
-        </div>
-
-        <div className="hero-visual">
-          <div className="hero-orb">
-            <span className="hero-icon">i</span>
-            <div className="hero-orb-glow" />
-          </div>
-          <div className="hero-trace" />
-          <div className="hero-trace hero-trace--two" />
         </div>
       </section>
 
