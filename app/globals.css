@@ -117,16 +117,16 @@ a {
 .hero {
   position: relative;
   padding: 120px 0 90px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 20% 10%, rgba(255, 182, 0, 0.14), transparent 18%),
-    radial-gradient(circle at 85% 25%, rgba(255, 115, 0, 0.12), transparent 16%);
-  filter: blur(30px);
+  background: radial-gradient(circle at 20% 10%, rgba(255, 182, 0, 0.12), transparent 18%),
+    radial-gradient(circle at 85% 25%, rgba(255, 115, 0, 0.10), transparent 16%);
+  filter: blur(24px);
   pointer-events: none;
 }
 
@@ -138,8 +138,8 @@ a {
   width: 420px;
   height: 420px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 170, 0, 0.2), transparent 55%);
-  filter: blur(100px);
+  background: radial-gradient(circle, rgba(255, 170, 0, 0.18), transparent 55%);
+  filter: blur(92px);
   pointer-events: none;
 }
 
@@ -218,12 +218,12 @@ a {
   line-height: 1.02;
   color: transparent;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  background: linear-gradient(135deg, #f9e7b5 0%, #d8a63c 40%, #b77a1d 80%, #ffd27a 100%);
+  letter-spacing: 0.04em;
+  background: linear-gradient(135deg, #f9e4b7 0%, #d0a53a 45%, #9d6518 90%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
   position: relative;
 }
 
@@ -233,19 +233,19 @@ a {
   left: 0;
   bottom: -8px;
   width: 100%;
-  height: 8px;
-  background: radial-gradient(circle, rgba(255, 188, 0, 0.12), transparent 45%);
-  filter: blur(6px);
+  height: 7px;
+  background: radial-gradient(circle, rgba(255, 190, 0, 0.10), transparent 45%);
+  filter: blur(4px);
 }
 
 .hero-highlight {
   display: inline-block;
   color: transparent;
-  background: linear-gradient(135deg, #f8e4a0 0%, #d2a848 45%, #af741d 100%);
+  background: linear-gradient(135deg, #f6d78a 0%, #cfa23a 45%, #9d6518 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
 }
 
 .eyebrow {
