@@ -215,15 +215,15 @@ a {
 .hero-title {
   margin: 0;
   font-size: clamp(3rem, 5vw, 5rem);
-  line-height: 0.96;
+  line-height: 1.02;
   color: transparent;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  background: linear-gradient(135deg, #fff3b0 0%, #ffd500 28%, #ff8a00 56%, #ffd700 100%);
+  letter-spacing: 0.06em;
+  background: linear-gradient(135deg, #f9e7b5 0%, #d8a63c 40%, #b77a1d 80%, #ffd27a 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 22px rgba(255, 180, 50, 0.26);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
   position: relative;
 }
 
@@ -231,21 +231,21 @@ a {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -10px;
+  bottom: -8px;
   width: 100%;
-  height: 10px;
-  background: radial-gradient(circle, rgba(255, 190, 0, 0.18), transparent 55%);
-  filter: blur(10px);
+  height: 8px;
+  background: radial-gradient(circle, rgba(255, 188, 0, 0.12), transparent 45%);
+  filter: blur(6px);
 }
 
 .hero-highlight {
   display: inline-block;
   color: transparent;
-  background: linear-gradient(135deg, #fff3b0 0%, #ffd500 28%, #ff8a00 52%, #ffd700 100%);
+  background: linear-gradient(135deg, #f8e4a0 0%, #d2a848 45%, #af741d 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 24px rgba(255, 190, 0, 0.3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
 }
 
 .eyebrow {
