@@ -1,15 +1,38 @@
 export default function Home() {
   return (
     <main className="container">
-      <section className="hero">
-        <div className="hero-brand">
+      <header className="site-header">
+        <div className="header-brand">
           <div className="brand-logo">
             <div className="logo-ring">Super Businesses</div>
             <div className="logo-mark">SB</div>
           </div>
-          <div className="hero-copy">
+          <div className="brand-text">
+            <span className="logo-name">Super Businesses</span>
+            <span className="logo-tag">Premium web & brand experiences</span>
+          </div>
+        </div>
+        <nav className="site-nav">
+          <a href="#services">What I Offer</a>
+          <a href="#projects">Selected Works</a>
+          <a href="#testimonials">Client Feedback</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section className="hero">
+        <div className="hero-brand">
+          <div className="brand-column">
+            <div className="brand-logo">
+              <div className="logo-ring">Super Businesses</div>
+              <div className="logo-mark">SB</div>
+            </div>
+            <h1 className="hero-title">
+              High-Performance <span className="hero-highlight">Web Development for Growing Businesses</span>
+            </h1>
             <p className="eyebrow">Web Development for Growing Brands</p>
-            <h1>High-Performance Web Development for Growing Businesses</h1>
+          </div>
+          <div className="hero-copy">
             <p className="subtitle">
               I build modern, responsive websites that help ambitious companies convert visitors into loyal customers.
             </p>
