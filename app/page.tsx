@@ -56,6 +56,12 @@ export default function Home() {
             <h3>Speed Optimization</h3>
             <p>Optimizing code to ensure lightning-fast loading times and better user retention.</p>
           </article>
+          <article className="card">
+            <h3>Shopify Landing Page Design</h3>
+            <p>Shopify Landing Page Design: I create high-converting, mobile-responsive landing pages specifically designed for high-ticket dropshipping stores.</p>
+            <p>Conversion-Focused Layouts: Every page is built with a focus on user experience to ensure your visitors turn into customers.</p>
+            <p>Fast & Professional: I deliver clean, fast-loading, and premium websites that help your brand stand out in a competitive market.</p>
+          </article>
         </div>
       </section>
 
@@ -74,9 +80,9 @@ export default function Home() {
         <h2>Selected Works</h2>
         <p className="section-copy">A glimpse of the projects I’ve built with precision and passion.</p>
         <div className="project-grid">
-          <div className="project-card">Project Image / Link 1</div>
-          <div className="project-card">Project Image / Link 2</div>
-          <div className="project-card">Project Image / Link 3</div>
+          <div className="project-card">Project / Link 1</div>
+          <div className="project-card">Project / Link 2 coming soon</div>
+          <div className="project-card">Project / Link 3 coming soon</div>
         </div>
       </section>
 
