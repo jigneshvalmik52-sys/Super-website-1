@@ -28,7 +28,7 @@ export default function Home() {
               <div className="logo-mark">SB</div>
             </div>
             <h1 className="hero-title">
-              High-Performance <span className="hero-highlight">Web Development for Growing Businesses</span>
+              premium <span className="hero-highlight">Web Development for Growing Businesses</span>
             </h1>
             <p className="eyebrow">Web Development for Growing Brands</p>
           </div>
